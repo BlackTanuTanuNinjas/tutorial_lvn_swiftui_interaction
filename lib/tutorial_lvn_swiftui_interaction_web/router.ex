@@ -25,7 +25,7 @@ defmodule TutorialLvnSwiftuiInteractionWeb.Router do
   scope "/", TutorialLvnSwiftuiInteractionWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", HomeLive
   end
 
   # Other scopes may use custom stacks.
