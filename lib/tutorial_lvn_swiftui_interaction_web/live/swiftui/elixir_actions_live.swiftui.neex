@@ -1,0 +1,12 @@
+<VStack style="frame(maxHeight: .infinity, alignment: .top)">
+    <Text style="padding(.top, 0)">weather.tsukumijima.net から久留米の天気を取得</Text>
+    <Button 
+        style="buttonStyle(.borderedProminent); controlSize(.large); cornerRadius(12.0)"
+        phx-click="get_weather"
+    >
+        天気を取得
+    </Button>
+
+    <Text style="font(.title);">本日の久留米: </Text>
+    <Text style="font(.title);"><%= @weather_text %></Text>
+</VStack>

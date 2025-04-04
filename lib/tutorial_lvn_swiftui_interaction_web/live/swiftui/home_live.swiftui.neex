@@ -13,6 +13,11 @@
   <Text style="foregroundStyle(.white); font(.headline)">押す</Text>
 </Button>
 
-<NavigationLink destination={"/"}>
-    <Text>More Information</Text>
+
+<NavigationLink destination={"/elixir_actions"}>
+    <Text>Elixir の処理実装を試す</Text>
+</NavigationLink>
+
+<NavigationLink destination={"/swift_actions"}>
+    <Text>Swift の処理実装を試す</Text>
 </NavigationLink>

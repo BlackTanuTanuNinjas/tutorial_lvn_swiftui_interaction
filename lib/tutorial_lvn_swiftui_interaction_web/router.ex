@@ -26,6 +26,8 @@ defmodule TutorialLvnSwiftuiInteractionWeb.Router do
     pipe_through :browser
 
     live "/", HomeLive
+    live "/elixir_actions", ElixirActionsLive
+    live "/swift_actions", SwiftActionsLive
   end
 
   # Other scopes may use custom stacks.
