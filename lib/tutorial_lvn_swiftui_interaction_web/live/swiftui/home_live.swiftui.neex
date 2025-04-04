@@ -1,1 +1,18 @@
-<Text>Hello, SwiftUI!</Text>
+
+<Text>要素のスタイル指定はこんな感じに行います</Text>
+<Text style="padding(.bottom, 16)">style="modifier(値); modifier(値)"</Text>
+
+<Text style="font(.title);foregroundStyle(.red); padding(.bottom, 16)">Hello, SwiftUI!</Text>
+
+<VStack alignment="leading">
+    <Text style="font(.caption)">.font(.title).foregroundStyle(.red)</Text>
+    <Text style="font(.caption)">style="font(.title);foregroundStyle(.red)"</Text>
+</VStack>
+
+<Button style="buttonStyle(.borderedProminent); controlSize(.large); cornerRadius(12.0)">
+  <Text style="foregroundStyle(.white); font(.headline)">押す</Text>
+</Button>
+
+<NavigationLink destination={"/"}>
+    <Text>More Information</Text>
+</NavigationLink>
