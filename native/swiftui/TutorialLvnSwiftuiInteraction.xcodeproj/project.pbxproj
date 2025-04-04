@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		141D6FD478CC180ED6C8B1D9 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
-		3B42391F04DF370F60FE8A18 /* TutorialLvnSwiftuiInteraction.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TutorialLvnSwiftuiInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B42391F04DF370F60FE8A18 /* TutorialLvnSwiftuiInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialLvnSwiftuiInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51A50F801B0ECAC3FE3AD6 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
 		4DB1233B14A15187A34F7F98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		776E01744DB0364D7C1517AD /* TutorialLvnSwiftuiInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLvnSwiftuiInteraction.swift; sourceTree = "<group>"; };
@@ -157,8 +157,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 5DEF80C5B2F446FF01320689 /* Build configuration list for PBXProject "TutorialLvnSwiftuiInteraction" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -238,6 +236,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F3Z79HHM87;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -257,6 +256,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F3Z79HHM87;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
