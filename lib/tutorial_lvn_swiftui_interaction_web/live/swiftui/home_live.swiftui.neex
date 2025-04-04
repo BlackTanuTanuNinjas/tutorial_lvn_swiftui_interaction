@@ -10,14 +10,16 @@
 </VStack>
 
 <Button style="buttonStyle(.borderedProminent); controlSize(.large); cornerRadius(12.0)">
-  <Text style="foregroundStyle(.white); font(.headline)">押す</Text>
+    <Text style="foregroundStyle(.white); font(.headline)">何もしないボタン</Text>
 </Button>
 
+<VStack>
+    <Text>リンク:</Text>
+    <NavigationLink destination={"/elixir_actions"}>
+        <Text>Elixir の処理実装を試す</Text>
+    </NavigationLink>
 
-<NavigationLink destination={"/elixir_actions"}>
-    <Text>Elixir の処理実装を試す</Text>
-</NavigationLink>
-
-<NavigationLink destination={"/swift_actions"}>
-    <Text>Swift の処理実装を試す</Text>
-</NavigationLink>
+    <NavigationLink destination={"/swift_actions"}>
+        <Text>Swift の処理実装を試す</Text>
+    </NavigationLink>
+</VStack>
