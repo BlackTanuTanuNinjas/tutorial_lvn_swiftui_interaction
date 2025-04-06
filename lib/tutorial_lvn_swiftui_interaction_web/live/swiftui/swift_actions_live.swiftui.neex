@@ -1,1 +1,14 @@
-<Button>押してね</Button>
+<VStack style="frame(alignment: .topLeading); padding(16)">
+    <Text style="font(.title)">Swift側の処理の実装について</Text>
+
+    <Text style="font(.body)">
+        Swift側で直接アクションを定義することは<Text style="bold()">できない</Text>。
+    </Text>
+
+    <Text style="bold()">理由:</Text>
+
+    <Text style="font(.body); padding(.top, 8)">
+        LiveViewNative は外部の Phoenix サーバーに接続し、neex を SwiftUI View に変換して表示している。
+        この構造上、画面上の要素に対して Swift 側で直接処理を実装することはできない。
+    </Text>
+</VStack>
